@@ -1,0 +1,18 @@
+.top {
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.topleft, .topright{
+    flex: 3;
+}
+
+.topcenter{
+    flex: 6;
+}
