@@ -9,10 +9,47 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.topleft, .topright{
+.topLeft, .topRight{
     flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.topcenter{
+.topCenter{
     flex: 6;
+}
+
+.topImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+.topIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(54, 54, 54);
+    cursor: pointer;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 350;
+    cursor: pointer;
+}
+
+.topSearchIcon{
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+    margin-left: 15px;
 }
