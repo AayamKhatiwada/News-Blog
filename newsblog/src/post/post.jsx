@@ -7,8 +7,8 @@ export default function Post() {
       <div className="postInfo">
 
         <div className="postCats">
-          <div className="postCat">Music</div>
-          <div className="postCat">Life</div>
+          <span className="postCat">Music</span>
+          <span className="postCat">Life</span>
         </div>
 
         <span className="postTitle">aaaasvhevbckwjb jhvsh bkja</span>
@@ -17,6 +17,7 @@ export default function Post() {
 
         <span className="postDate">1 hour ago</span>
       </div>
+      <p className="postDescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem veniam ullam magni nostrum quod ipsa quaerat perferendis consectetur eius ratione eligendi eos saepe debitis quae dolore, eum numquam sed adipisci</p>
     </div>
   )
 }
