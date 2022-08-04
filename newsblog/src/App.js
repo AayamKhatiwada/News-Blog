@@ -1,13 +1,14 @@
 import './App.css';
 import Home from './pages/home/home';
-import Topbar from './topbar/Topbar';
+import Topbar from './items/topbar/Topbar';
+import Single from './pages/single/Single';
 
 function App() {
   return (
     <div>
-      <Topbar/>
-      <Home/>
-      
+      <Topbar />
+      {/* <Home/> */}
+      <Single />
     </div>
   );
 }
