@@ -1,12 +1,12 @@
 import './App.css';
 import Topbar from './items/topbar/Topbar';
-import Write from './pages/write/Write';
+import Settings from './pages/settings/Settings';
 
 function App() {
   return (
     <div>
       <Topbar />
-      <Write/>
+      <Settings/>
     </div>
   );
 }
