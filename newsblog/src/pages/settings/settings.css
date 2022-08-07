@@ -42,3 +42,42 @@
     border-radius: 20px;
     object-fit: cover;
 }
+
+.settingsPPIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(7, 244, 165);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settingsForm > label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm > input{
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+} 
+
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(0, 255, 47);
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
