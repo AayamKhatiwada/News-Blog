@@ -7,15 +7,15 @@ import "./home.css"
 
 export default function Home() {
 
-  const [posts, setPosts] = useState([]);
+  // const [posts, setPosts] = useState([]);
 
-  useEffect(()=>{
-    const fetchPosts = async ()=>{
-      const res = await axios.get("/posts")
-      console.log(res)
-    }
-    fetchPosts()
-  },[])
+  // useEffect(()=>{
+  //   const fetchPosts = async ()=>{
+  //     const res = await axios.get("/posts")
+  //     console.log(res)
+  //   }
+  //   fetchPosts()
+  // },[])
 
   return (
     <>
