@@ -2,7 +2,7 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 import Header from "../../items/header/header"
 import Posts from "../../items/posts/posts"
-import Sidebar from "../../items/sidebar/Sidebar"
+import Sidebar from "../../items/sidebar/sidebar"
 import "./home.css"
 
 export default function Home() {

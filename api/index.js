@@ -11,7 +11,7 @@ app.use(express.json());
 
 // code to connect to mongodb
 mongoose.connect(process.env.MONGO_URL)
-.then(console.log("Conect"))
+.then(console.log("Connect"))
 .catch(console.log((err) => console.log(err)));
 
 app.use("/api/auth", authroutes)
